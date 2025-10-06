@@ -10,3 +10,9 @@ curl -fsSL https://get.docker.com | sh
 
 # 启动并设置开机自启
 systemctl enable --now docker >/dev/null 2>&1
+
+# 重启 Docker 服务（确保启动成功）
+systemctl restart docker
+
+# 显示 Docker 服务状态
+sudo systemctl status docker --no-pager

@@ -1,0 +1,1 @@
+一键安装docker，ubuntu系统开机root状态，并修复主机名错误的问题
